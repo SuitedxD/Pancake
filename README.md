@@ -1,3 +1,4 @@
+![assset1](https://imgur.com/a/JwBuE2d)
 # Official Pancake Documentation
 Welcome! In this repository, you'll find everything about Pancake: a multifunctional Discord bot designed by and for our community. We invite you to read the following article to learn more.
 
