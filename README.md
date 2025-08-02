@@ -1,5 +1,5 @@
 ![ ](https://i.imgur.com/yYUG27J.png)
-# Official Pancake Documentation
+# Official Documentation
 Welcome! In this repository, you'll find everything about Pancake: a multifunctional Discord bot designed by and for our community. We invite you to read the following article to learn more.
 
 ## How does Pancake work?
