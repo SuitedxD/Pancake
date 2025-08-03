@@ -34,3 +34,10 @@ Here you'll find all the plugins you can install in Pancake.
 | /random-number | Gives you a random number. |
 
 </details>
+
+# See Also:
+- [Plugins Guide](/docs/plugins-guide.md)
+- [Plugin Template](/plugins/community/example.py)
+- [Official Discord Server](https://discord.gg/dT8S632nPM)
+- [Invite Pancake to your Discord Server](https://discord.com/oauth2/authorize?client_id=1398868186216271962&permissions=8&integration_type=0&scope=applications.commands+bot)
+- [Plugin Guidelines](/docs/plugins-guidelines.md)
