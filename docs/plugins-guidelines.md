@@ -1,5 +1,5 @@
 # Plugin Guidelines
-Before submitting your plugin, make sure to comply with the following guidelines. In case of non-compliance, your plugin can be postponed or rejected.
+Welcome! In this section you will find everything you need to know to ensure a successful integration of your plugin in Pancake.
 
 ## Requirements and prohibitions for submitting plugins:
 
@@ -19,4 +19,18 @@ For security reasons, functions such as:
 - 5. Do not use generic or already used names.
 Avoid using generic names like "MyPlugin" or "command-1" in classes or in the name of your plugin itself. Make sure your class and command names aren't already taken or used in other plugins.
 
-If you have any questions, please let us know on our Discord server before submitting.
+Note: Any malicious code or attempted scam will be penalized.
+
+## Penalties for non-compliance with the Guidelines
+The penalties can vary in intensity but here they are ordered from lowest to highest penalty.
+
+- **Plugin Postponed**: This may be caused because we find one or more errors, bugs, or a simple incompatibility error. In any case, your plugin won't be discarded, but it will be postponed from being integrated into Pancake. We'll let you know, and depending on the reason, we'll see what the best way to resolve it is.
+
+- **Plugin Rejected**: Your plugin is rejected for Pancake integration, meaning that unless you attempt to submit it later, it won't be integrated. We'll let you know, along with the reason for the rejection. You can resubmit it once you've made all the necessary corrections.
+
+- **Blacklisted**: In case of suspicious activity, you will be blacklisted, which means you won't be able to submit code or access to certain Pancake services unless we confirm you're not engaging in malicious activity.
+
+- **Closing of doors**: As the name suggests, you will be banned from the Discord server and will not be able to access or use Pancake services again.
+
+If you have any questions, please let us know on our Discord server.
+
