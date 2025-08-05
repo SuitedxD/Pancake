@@ -14,7 +14,7 @@ The first step is to **add Pancake to your Discord server** by [clicking here](h
 ## Best of all is:
 **You can also create your own plugins** as long as they follow our guidelines and are made for the benefit of our entire community. We invite you to read our [Plugins Guide](docs/plugins-guide.md) for more information about plugin creation.
 
-**It's time to bring your ideas to life.**
+***It's time to bring your ideas to life.***
 
 # See Also:
 - [Pancake Plugins List](docs/plugins-list.md)

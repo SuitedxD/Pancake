@@ -25,7 +25,7 @@ Here you'll find all the plugins you can install in Pancake.
 
 | Command(s) | Description        |
 |-           |-                   |
-| /8ball     | Answers a yes/no question. |
+| /8ball (question) | Answers a yes/no question. |
 | /coinflip  | Flips a coin and tells you the result. |
 | /dare      | Dares you to do something dumb. |
 | /dice      | Rolls a dice and tells you the result. |
@@ -33,6 +33,22 @@ Here you'll find all the plugins you can install in Pancake.
 | /mood      | Detects your mood. |
 | /random-number | Gives you a random number. |
 
+</details>
+
+<summary>Moderation</summary>
+
+## **Strike Commands** - Suited
+**Install with:** `/install plugin:strike`
+
+- Introducing Strikes, Pancake's exclusive warning system.
+
+| Command(s) | Description        |
+|-           |-                   |
+| /strike (user), (reason) | Give a strike to a user. Strikes accumulate per user. |
+| /remove-strike (user), (amount) | Removes a certain amount of strikes from a user. |
+| /check-strikes (user)| Check the number of strikes a user has. |
+| /strike-settings | View your current settings. |
+| /strike-limit-settings (limit of strikes), (action: mute, kick, ban) | Configure the strike limit and what actions Pancake will take when it is reached. |
 </details>
 
 # See Also:
