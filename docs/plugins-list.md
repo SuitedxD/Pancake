@@ -35,6 +35,7 @@ Here you'll find all the plugins you can install in Pancake.
 
 </details>
 
+<details>
 <summary>Moderation</summary>
 
 ## **Strike Commands** - Suited
