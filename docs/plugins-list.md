@@ -37,6 +37,24 @@ Here you'll find all the plugins you can install in Pancake. Click on any of the
 
 # Moderation
 
+## **Moderation Commands Pack No. 1** - Suited
+**Commands: 9**
+**Install with:** `/install plugin:mod1`
+
+- 9 basic moderation commands.
+
+| Command(s) | Description        |
+|-           |-                   |
+| /ban (user) (reason) | Ban a user off your server. |
+| /unban (user ID) | Unban a user from your server by ID. |
+| /kick (user) (reason) | Kicks a user off your server. |
+| /mute (user) (duration) (reason) | Mute a user for a specific duration (format: 10m, 1h, 30s). |
+| /unmute (user) | Remove mute from a user. |
+| /clear (amount) | Delete a number of messages from the current channel (1-100). |
+| /slowmode (delay) | Set slowmode delay (seconds) in the current channel. 0 disables slowmode. |
+| /lock (role) | Lock the current channel for a specific role. |
+| /unlock (role) | Unlock the current channel for a specific role. |
+
 ## **Strike Commands** - Suited
 **Commands: 5**
 **Install with:** `/install plugin:strike`

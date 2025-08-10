@@ -23,7 +23,7 @@ To maintain the quality and security of Pancake, we ask all developers to follow
 - **Avoid using generic or already existing names.**  
   Do not name your plugin or classes using common or placeholder names such as `MyPlugin`, `Plugin1`, etc. Make sure your names are unique and not already used by existing plugins.
 
-**Note: Submitting malicious code or any form of scam will result in immediate penalties.**
+- **Note: Submitting malicious code or any form of scam will result in immediate penalties.**
 
 ## Penalties for Non-Compliance with the Guidelines
 The following penalties may be applied if a submission violates one or more of the guidelines. They are listed from the least to the most severe:
