@@ -1,7 +1,5 @@
-# Plugins Guide
-This is the official Pancake Plugins Guide.
-
-Here you'll find everything you need to understand how to create, submit, and maintain your own plugin for Pancake. This guide is designed for both programmers and regular users, so everything will be clearly explained, with as much technical detail as necessary, but always focused on clarity and simplicity.
+# Plugin Creation Guide
+Welcome! Here you'll find everything you need to understand how to create, submit, and maintain your own plugin for Pancake. This guide is designed for both programmers and regular users, so everything will be clearly explained, with as much technical detail as necessary, but always focused on clarity and simplicity.
 
 The plugins system is intended to allow the community to contribute custom features while maintaining quality, stability, and security in Pancake.
 
@@ -23,8 +21,10 @@ Submitting a plugin is simple. All plugin submissions are made inside our offici
 
 Here's how the process works:
 
-1. **Join the Pancake Discord server.**
-2. **Go to the #send-your-plugin forum channel.**
+- **IMPORTANT NOTE**: Before submitting we recommend to visit and read our [Plugin Guidelines](/docs/plugins-guidelines.md)
+
+1. **[Join the Pancake Discord server](https://discord.gg/dT8S632nPM).**
+2. **Go to #send-your-plugin.**
 3. **Create a new forum post.** This is your plugin submission.
 4. **Paste a link to your plugin's code** using [GitHub Gist](https://gist.github.com). This is the only format we currently accept.
 5. **Include a clear explanation** of what your plugin does, what commands it includes, and how users are expected to use it.
@@ -56,6 +56,6 @@ You can always join our Discord server and find more help or guidance on this pr
 # See Also:
 - [Plugin Guidelines](/docs/plugins-guidelines.md)
 - [Plugin Template](/plugins/community/example.py)
-- [Official Discord Server](https://discord.gg/dT8S632nPM)
+- [Discord Server](https://discord.gg/dT8S632nPM)
 - [Pancake Plugins List](/docs/plugins-list.md)
 - [Invite Pancake to your Discord Server](https://discord.com/oauth2/authorize?client_id=1398868186216271962&permissions=8&integration_type=0&scope=applications.commands+bot)
