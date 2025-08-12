@@ -1,8 +1,8 @@
 #Welcome Commands
-#Plugin Version: 0.1.4
+#Plugin Version: 0.1.16
 
 import discord
-from discord import app_commands
+from discord import Guild, app_commands
 from PIL import Image, ImageDraw, ImageFont
 import requests
 from io import BytesIO
@@ -45,7 +45,7 @@ class WelcomeCommand:
             set_welcome_setting(interaction.guild.id, "background_url", url)
             await interaction.response.send_message("Welcome background updated.", ephemeral=True)
 
-        @app_commands.command(name="set-avatar-position", description="Set the avatar position on the welcome image.")
+        @app_commands.command(name="set-welcome-avatar-position", description="Set the avatar position on the welcome image.")
         @app_commands.describe(position="1=center, 2=right, 3=left")
         async def set_avatar_position(interaction: discord.Interaction, position: int):
             if not await self._check_perms(interaction):
@@ -57,7 +57,7 @@ class WelcomeCommand:
             await interaction.response.send_message(f"Avatar position set to {position}.", ephemeral=True)
 
         @app_commands.command(name="set-welcome-text", description="Set the welcome text for the embed title.")
-        @app_commands.describe(text="Text for the embed title. Use {user} for username and {server_name} for server name. Type 'none' to disable.")
+        @app_commands.describe(text="Text for the embed title. Use {user} for user mention and {server_name} for server name. Type 'none' to disable.")
         async def set_welcome_text(interaction: discord.Interaction, *, text: str):
             if not await self._check_perms(interaction):
                 return
@@ -77,7 +77,7 @@ class WelcomeCommand:
             set_welcome_setting(interaction.guild.id, "avatar_size", size)
             await interaction.response.send_message(f"Avatar size set to {size}px.", ephemeral=True)
 
-        @app_commands.command(name="set-welcome-embedcolor", description="Set the embed color for the welcome message.")
+        @app_commands.command(name="set-welcome-embed-color", description="Set the embed color for the welcome message.")
         @app_commands.describe(color="Color name (dark_theme, red, blue, green, purple, orange, gold).")
         async def set_embed_color(interaction: discord.Interaction, color: str):
             if not await self._check_perms(interaction):
@@ -111,7 +111,7 @@ class WelcomeCommand:
 
             welcome_text = settings.get("welcome_text", self.default_welcome_text)
             if welcome_text:
-                welcome_text = welcome_text.replace("{user}", interaction.user.name).replace("{server_name}", interaction.guild.name)
+                welcome_text = welcome_text.replace("{user}", interaction.user.mention).replace("{server_name}", interaction.guild.name)
 
             embed_color_key = settings.get("embed_color", None)
             embed_color = EMBED_COLOR_MAP.get(embed_color_key, self.default_embed_color)
@@ -176,7 +176,7 @@ class WelcomeCommand:
         background.paste(avatar, (x, y), avatar)
 
         font = ImageFont.load_default()
-        draw.text((20, 20), f"Welcome, {member.name}!", font=font, fill=(255, 255, 255))
+        draw.text((20, 20), f"Welcome, {member.mention}!", font=font, fill=(255, 255, 255))
 
         buffer = BytesIO()
         background.save(buffer, "PNG")
@@ -194,11 +194,11 @@ class WelcomeCommand:
             self._welcome_fire
         ]
 
-async def setup(bot: discord.Client):
+async def setup(bot: discord.Client, guild: discord.Guild):
     welcome_plugin = WelcomeCommand(bot)
     for cmd in welcome_plugin.get_commands():
-        bot.tree.add_command(cmd)
-    await bot.tree.sync()
+        bot.tree.add_command(cmd, guild=guild)
+    await bot.tree.sync(guild=guild)
 
     @bot.event
     async def on_member_join(member: discord.Member):
@@ -219,7 +219,7 @@ async def setup(bot: discord.Client):
 
         welcome_text = settings.get("welcome_text", welcome_plugin.default_welcome_text)
         if welcome_text:
-            welcome_text = welcome_text.replace("{user}", member.name).replace("{server_name}", member.guild.name)
+            welcome_text = welcome_text.replace("{user}", member.mention).replace("{server_name}", member.guild.name)
 
         embed_color_key = settings.get("embed_color", None)
         embed_color = EMBED_COLOR_MAP.get(embed_color_key, welcome_plugin.default_embed_color)

@@ -1,5 +1,5 @@
 # ===========================
-#      Plugin Template
+#      Plugin Example
 # ===========================
 
 # This is a basic example/template of how a Pancake plugin should be structured.

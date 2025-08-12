@@ -19,10 +19,10 @@ Here you'll find all the plugins you can install in Pancake. Click on any of the
 | /set-welcome-avatar-size (50-1024) | Set the size of the avatar in the welcome image. |
 | /set-welcome-avatar-position (1, 2, 3) | Set the avatar position on the welcome image. |
 | /set-welcome-text (Example: Hello {user}, welcome to {server_name}!)| Set the welcome text for the embed title. |
-| /set-welcome-embedcolor (colours below)| Set the embed color for the welcome message. |
+| /set-welcome-embed-color (colors below)| Set the embed color for the welcome message. |
 | /welcome-fire | Test the welcome message by sending it to the configured channel. |
 
-- Embed Colours: `default, dark_theme, red, blue, green, purple, orange, gold`.
+- Embed Colors: `default, dark_theme, red, blue, green, purple, orange, gold`.
 
 ## **Ping** - Suited
 **Commands: 2**
@@ -95,6 +95,6 @@ Here you'll find all the plugins you can install in Pancake. Click on any of the
 # See Also:
 - [Plugins Guide](/docs/plugins-guide.md)
 - [Plugin Template](/plugins/community/example.py)
-- [Discord Server](https://discord.gg/dT8S632nPM)
+- [Discord Server](https://discord.gg/SgXdeVaxuh)
 - [Invite Pancake to your Discord Server](https://discord.com/oauth2/authorize?client_id=1398868186216271962&permissions=8&integration_type=0&scope=applications.commands+bot)
 - [Plugin Guidelines](/docs/plugins-guidelines.md)

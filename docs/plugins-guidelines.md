@@ -96,6 +96,6 @@ If you haven't found your question or concern here, feel free to reach out via o
 # See Also:
 - [Plugins Guide](/docs/plugins-guide.md)
 - [Plugin Template](/plugins/community/example.py)
-- [Discord Server](https://discord.gg/dT8S632nPM)
+- [Discord Server](https://discord.gg/SgXdeVaxuh)
 - [Pancake Plugins List](/docs/plugins-list.md)
 - [Invite Pancake to your Discord Server](https://discord.com/oauth2/authorize?client_id=1398868186216271962&permissions=8&integration_type=0&scope=applications.commands+bot)
