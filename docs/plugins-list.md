@@ -1,12 +1,32 @@
 # List of Pancake Plugins
 Here you'll find all the plugins you can install in Pancake. Click on any of the following categories to see related
 
-[Moderation](/docs/plugins-list.md/#Moderation) | [Fun](/docs/plugins-list.md/#Fun) | [Useful](/docs/plugins-list.md/#Useful)
+[Moderation](/docs/plugins-list.md/#Moderation) | [Fun](/docs/plugins-list.md/#Fun) | [Utility](/docs/plugins-list.md/#Utility)
 
-# Useful
+# Utility
+
+## **Welcome** - Suited
+**Commands: 7**
+
+**Install with:** `/install plugin:welcome`
+
+- Give your new members a warm welcome with this plugin.
+
+| Command(s) | Description        |
+|-           |-                   |
+| /set-welcome-channel (#channel) | Set the channel where welcome messages will be sent. |
+| /set-welcome-background (Image URL) | Set the background image URL for the welcome message. |
+| /set-welcome-avatar-size (50-1024) | Set the size of the avatar in the welcome image. |
+| /set-welcome-avatar-position (1, 2, 3) | Set the avatar position on the welcome image. |
+| /set-welcome-text (Example: Hello {user}, welcome to {server_name}!)| Set the welcome text for the embed title. |
+| /set-welcome-embedcolor (colours below)| Set the embed color for the welcome message. |
+| /welcome-fire | Test the welcome message by sending it to the configured channel. |
+
+- Embed Colours: `default, dark_theme, red, blue, green, purple, orange, gold`.
 
 ## **Ping** - Suited
 **Commands: 2**
+
 **Install with:** `/install plugin:ping`
 
 - Basic ping commands for testing.
@@ -21,6 +41,7 @@ Here you'll find all the plugins you can install in Pancake. Click on any of the
 
 ## **Fun Commands Pack No. 1** - Suited
 **Commands: 7**
+
 **Install with:** `/install plugin:fun1`
 
 - 7 basic and fun commands for your server.
@@ -39,6 +60,7 @@ Here you'll find all the plugins you can install in Pancake. Click on any of the
 
 ## **Moderation Commands Pack No. 1** - Suited
 **Commands: 9**
+
 **Install with:** `/install plugin:mod1`
 
 - 9 basic moderation commands.
@@ -57,6 +79,7 @@ Here you'll find all the plugins you can install in Pancake. Click on any of the
 
 ## **Strike Commands** - Suited
 **Commands: 5**
+
 **Install with:** `/install plugin:strike`
 
 - Introducing Strikes, Pancake's exclusive warning system.
