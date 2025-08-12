@@ -1,5 +1,5 @@
 #Moderation Commands Pack No. 1
-#Plugin Version: 0.1.0
+#Plugin Version: 0.1.4
 
 import discord
 import datetime
@@ -92,6 +92,19 @@ class Mod1Command:
         await interaction.response.defer()
         try:
             await member.ban(reason=reason)
+
+            embed = discord.Embed(
+                title=f"You were banned from {interaction.guild.name}",
+                color=discord.Color.dark_red()
+            )
+            embed.add_field(name="Reason:", value=reason or "No reason provided", inline=False)
+            if interaction.guild.icon:
+                embed.set_thumbnail(url=interaction.guild.icon.url)
+            try:
+                await member.send(embed=embed)
+            except:
+                pass
+
             await interaction.followup.send(f"✅ {member.mention} has been banned. Reason: {reason or 'No reason provided'}")
         except discord.Forbidden:
             await interaction.followup.send("**ERR**: Pancake doesn't have permission to ban that user.", ephemeral=True)
@@ -113,7 +126,20 @@ class Mod1Command:
         try:
             uid = int(raw_id)
             user = await self.bot.fetch_user(uid)
+
             await interaction.guild.unban(user)
+
+            embed = discord.Embed(
+                title=f"You were unbanned from {interaction.guild.name}",
+                color=discord.Color.green()
+            )
+            if interaction.guild.icon:
+                embed.set_thumbnail(url=interaction.guild.icon.url)
+            try:
+                await user.send(embed=embed)
+            except:
+                pass
+
             await interaction.followup.send(f"✅ {user} has been unbanned.")
         except discord.NotFound:
             await interaction.followup.send("**ERR**: That user is not in the ban list.", ephemeral=True)
@@ -131,6 +157,19 @@ class Mod1Command:
         await interaction.response.defer()
         try:
             await member.kick(reason=reason)
+
+            embed = discord.Embed(
+                title=f"You were kicked from {interaction.guild.name}",
+                color=discord.Color.orange()
+            )
+            embed.add_field(name="Reason:", value=reason or "No reason provided", inline=False)
+            if interaction.guild.icon:
+                embed.set_thumbnail(url=interaction.guild.icon.url)
+            try:
+                await member.send(embed=embed)
+            except:
+                pass
+
             await interaction.followup.send(f"✅ {member.mention} has been kicked. Reason: {reason or 'No reason provided'}")
         except discord.Forbidden:
             await interaction.followup.send("**ERR**: Pancake doesn't have permission to kick that user.", ephemeral=True)
@@ -151,6 +190,19 @@ class Mod1Command:
         await interaction.response.defer()
         try:
             await member.timeout(parsed, reason=reason)
+
+            embed = discord.Embed(
+                title=f"You were muted in {interaction.guild.name}",
+                color=discord.Color.darker_grey()
+            )
+            embed.add_field(name="Reason:", value=reason or "No reason provided", inline=False)
+            if interaction.guild.icon:
+                embed.set_thumbnail(url=interaction.guild.icon.url)
+            try:
+                await member.send(embed=embed)
+            except:
+                pass
+
             await interaction.followup.send(f"✅ {member.mention} has been muted for {duration}. Reason: {reason or 'No reason provided'}")
         except discord.Forbidden:
             await interaction.followup.send("**ERR**: Pancake doesn't have permission to mute that user.", ephemeral=True)
@@ -166,6 +218,18 @@ class Mod1Command:
         await interaction.response.defer()
         try:
             await member.timeout(None)
+
+            embed = discord.Embed(
+                title=f"You were unmuted in {interaction.guild.name}",
+                color=discord.Color.green()
+            )
+            if interaction.guild.icon:
+                embed.set_thumbnail(url=interaction.guild.icon.url)
+            try:
+                await member.send(embed=embed)
+            except:
+                pass
+
             await interaction.followup.send(f"✅ {member.mention} has been unmuted.")
         except discord.Forbidden:
             await interaction.followup.send("**ERR**: Pancake doesn't have permission to unmute that user.", ephemeral=True)
