@@ -1,8 +1,15 @@
+#Plugin Title: Fun Commands Pack No. 1
+#Plugin Version: 0.1.2
+#Plugin Author: Suited
+# © 2025 Suited. All rights reserved.
+# Licensed under Pancake Development License v1.0
+# See LICENSE file for full terms
+
 import discord
 import random
 from discord import app_commands
 
-class Fun1Command:
+class Fun1Plugin:
     def __init__(self, bot: discord.Client):
         self.bot = bot
 

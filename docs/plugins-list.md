@@ -6,7 +6,7 @@ Here you'll find all the plugins you can install in Pancake. Click on any of the
 # Utility
 
 ## **Welcome** - Suited
-**Commands: 7**
+**Commands: 9**
 
 **Install with:** `/install plugin:welcome`
 
@@ -18,6 +18,8 @@ Here you'll find all the plugins you can install in Pancake. Click on any of the
 | /set-welcome-background (Image URL) | Set the background image URL for the welcome message. |
 | /set-welcome-avatar-size (50-1024) | Set the size of the avatar in the welcome image. |
 | /set-welcome-avatar-position (1, 2, 3) | Set the avatar position on the welcome image. |
+| /set-welcome-nick-size (8-200) | Set the size of the nickname shown under the avatar. |
+| /set-welcome-nick-position (1, 2, 3) | Set the nickname position on the welcome image. |
 | /set-welcome-text (Example: Hello {user}, welcome to {server_name}!)| Set the welcome text for the embed title. |
 | /set-welcome-embed-color (colors below)| Set the embed color for the welcome message. |
 | /welcome-fire | Test the welcome message by sending it to the configured channel. |

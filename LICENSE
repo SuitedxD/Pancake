@@ -1,21 +1,78 @@
-MIT License
+Pancake Development License (PDL)
+Version 1.0 — Effective Date: August 16, 2025
 
-Copyright (c) 2025 suited
+Copyright (c) 2025 Pancake Development Team and respective Plugin Authors
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Preamble
+This Pancake Development License ("License" or "PDL") sets forth the terms under which the Pancake project, its plugins, modules, and all related source code and materials (collectively, the "Software") may be used, copied, modified, installed, distributed, sublicensed, and monetized. The Software is protected by copyright upon creation. Receiving, cloning, downloading, or otherwise obtaining the Software implies acceptance of, and agreement to be bound by, this License.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. Definitions
+1.1 "Plugin Author(s)" or "Author(s)" — the individual(s) who authored a particular plugin or code component.
+1.2 "Pancake Development Team" — the official core development team of the Pancake project. Initially, the Pancake Development Team consists of Suited (founder and creator). New members may be added by project governance; any person officially recognized as a member of the Pancake Development Team shall be considered an Authorized Team Member with the rights described herein.
+1.3 "Authorized Parties" — the Pancake Development Team (as defined above) and the Plugin Author(s) for each respective plugin, unless the Plugin Author(s) expressly grant written authorization to a third party.
+1.4 "Contribution" — any code, documentation, assets or other material submitted to Pancake's official repositories, channels, or contribution mechanisms (e.g., PRs, Gists, forum submissions).
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2. Ownership and Copyright
+2.1 Plugin Author(s) retain copyright in and ownership of the code they authored (their respective plugins), and nothing in this License transfers ownership of those works, except as explicitly agreed in writing by the Author(s).
+2.2 The Pancake Development Team retains copyright in the Pancake project core and in any code authored by team members as part of Pancake.
+2.3 Contributors retain copyright in their contributions but by contributing they agree to license those contributions under the terms of this License as specified in Section 5.
+
+3. Authorized Rights and Scope
+3.1 Only Authorized Parties may use, install, operate, administer, modify, distribute, sublicense, monetize, or otherwise exploit the Software, subject to the terms of this License.
+3.2 Plugin Author(s) may, at their sole discretion, authorize third parties to use, distribute, or monetize their plugin(s); such authorization must be granted in writing (verifiable email, signed agreement, or similar).
+3.3 The Pancake Development Team may use, modify, adapt, and monetize any plugin within the Pancake project, and may make necessary changes for compatibility, security, or functionality within Pancake.
+3.4 The Pancake Development Team may not use plugin code in projects or bots outside of Pancake without the prior written authorization of the respective Plugin Author(s).
+
+4. Team Membership and Delegated Authority
+4.1 Any person or legal entity that is officially designated and documented as a member of the Pancake Development Team shall have the same rights, privileges, and enforcement authority as the team (including the ability to authorize actions, request takedowns, and pursue enforcement), to the extent those rights pertain to Pancake-managed components.
+4.2 Changes in team membership shall be recorded by project governance; designation as a Pancake Development Team member is the authorization mechanism that confers the rights described in this License.
+
+5. Contributions and Licensing of Contributions
+5.1 By submitting a Contribution to Pancake's official channels, the Contributor represents and warrants that they have the right to submit the Contribution and that the Contribution does not infringe third-party rights.
+5.2 By submitting a Contribution, the Contributor retains copyright to their Contribution but grants and agrees to license that Contribution under the terms of this License, such that the Contribution is governed by the PDL when incorporated into Pancake or its official plugin distribution.
+5.3 Contributors may not later revoke the license granted by submitting a Contribution with respect to code already accepted and incorporated into Pancake under this License.
+
+6. Prohibited Uses (Without Express Written Authorization)
+Unless expressly authorized in writing by the Copyright Holder(s) relevant to the component (Plugin Author(s) for plugin code; Pancake Development Team for Pancake core code), the following are prohibited:
+6.1 Using, copying, integrating, or executing the Software in third-party bots, projects, or services outside Pancake.
+6.2 Distributing, publishing, mirroring, selling, placing behind paywalls, or otherwise making the Software available to third parties.
+6.3 Creating derivative works, modifications, translations, or extracting substantial portions of the Software for use outside Pancake.
+6.4 Commercial exploitation, resale, or offering the Software as a service without written authorization.
+
+7. Derivative Works and Authorized Modifications
+7.1 Modifications or derivative works of plugin code are only permitted with the written authorization of the Plugin Author(s). If so authorized, such derivatives must be licensed and distributed under terms compatible with this License unless otherwise agreed in writing.
+7.2 The Pancake Development Team may modify plugin code for use within Pancake; such modifications do not change Plugin Author(s)’ ownership rights unless a separate written agreement transfers or assigns rights.
+
+8. Monetization and Revenue
+8.1 Only Authorized Parties (Plugin Author(s) and Pancake Development Team members) may derive direct or indirect revenue from the Software.
+8.2 Any third party seeking to monetize the Software must obtain prior written authorization from the relevant Copyright Holder(s).
+
+9. Enforcement and Remedies
+9.1 Both the Pancake Development Team and the Plugin Author(s) are expressly authorized to enforce this License and their respective copyright interests. Either or both may:
+    a) issue DMCA or equivalent takedown notices to hosting providers;
+    b) report infringing content, bots, or accounts to platform providers (e.g., Discord Trust & Safety, GitHub, Replit) with supporting evidence;
+    c) seek injunctive relief, damages, or other remedies available under applicable law.
+9.2 Enforcement actions by the Pancake Development Team do not substitute or limit a Plugin Author’s independent right to enforce their own copyright and license rights, and vice versa.
+
+10. Revocation, Termination, and Remedies for Breach
+10.1 Any breach of this License by a licensee or third party shall result in immediate termination of any rights granted under this License to that party.
+10.2 Termination does not limit the right of the Pancake Development Team or Plugin Author(s) to pursue any other remedies, including injunctive relief and claims for damages.
+
+11. Warranty Disclaimer and Limitation of Liability
+11.1 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.
+11.2 IN NO EVENT SHALL THE PANCAKE DEVELOPMENT TEAM OR PLUGIN AUTHOR(S) BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+12. Prior Licenses and Retroactivity
+12.1 Copies of the Software that were obtained by third parties while the Software was published under a prior license (for example, MIT) shall remain governed by the terms of that prior license for those particular copies. This License is not retroactive to copies legitimately obtained under previous licensing terms.
+12.2 The Pancake Development Team may, in its discretion, change the License for future releases; such changes do not affect rights already granted under prior distributions.
+
+13. Miscellaneous
+13.1 Severability: If any provision of this License is held invalid or unenforceable, the remaining provisions shall remain in full force and effect.
+13.2 No Waiver: Failure to enforce any provision of this License shall not constitute a waiver of future enforcement of that or any other provision.
+
+14. Contact
+For authorization requests, infringement notices, contribution queries, or legal inquiries, contact:
+Pancake Development Team
+[pancakebot.team@gmail.com]
+
+END OF LICENSE

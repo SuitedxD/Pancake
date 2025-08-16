@@ -1,7 +1,14 @@
+#Plugin Title: Ping
+#Plugin Version: 0.1.0
+#Plugin Author: Suited
+# © 2025 Suited. All rights reserved.
+# Licensed under Pancake Development License v1.0
+# See LICENSE file for full terms
+
 import discord
 from discord import app_commands
 
-class PingCommand:
+class PingPlugin:
     def __init__(self, bot: discord.Client):
         self.bot = bot
         self._ping = app_commands.Command(

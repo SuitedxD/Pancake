@@ -1,5 +1,9 @@
-#Moderation Commands Pack No. 1
+#Plugin Title: Moderation Commands Pack No. 1
 #Plugin Version: 0.1.4
+#Plugin Author: Suited
+# © 2025 Suited. All rights reserved.
+# Licensed under Pancake Development License v1.0
+# See LICENSE file for full terms
 
 import discord
 import datetime
@@ -7,7 +11,7 @@ import re
 from discord import app_commands
 from typing import Optional
 
-class Mod1Command:
+class Mod1Plugin:
     def __init__(self, bot: discord.Client):
         self.bot = bot
 

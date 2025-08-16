@@ -5,12 +5,14 @@
 # This is a basic example/template of how a Pancake plugin should be structured.
 # Use this as a starting point to create your own plugin.
 
+#This code is free to use, it is not protected under the Pancake Development License.
+
 # Pancake uses Python. Your entire plugin must be written in Python, 
 # and compatible with the Discord API via discord.py and discord.app_commands.
 
 # (Insert your plugin name here)
 # (Insert your description here)
-
+# (Insert your plugin categories here)
 
 # A plugin is a group of slash commands wrapped into a single class.
 # Each command is created using app_commands.Command, which requires a name, description, and a callback.
@@ -21,16 +23,16 @@
 import discord
 from discord import app_commands
 
-# Replace 'Example' with a unique name for your plugin class.
-# It is mandatory that you be accompanied by 'Command' as below.
+# Replace "Example" with a unique name for your plugin class.
+# It is mandatory that you be accompanied by "Plugin" as below.
 # This class represents the entire plugin and will be used to identify and install your plugin.
 # It must be unique across all Pancake plugins. Avoid using generic names.
-class ExampleCommand:
+class ExamplePlugin:
     def __init__(self, bot: discord.Client):
         self.bot = bot
 
-        # Command 1: /example
-        # This creates a simple slash command named 'example'.
+        # Plugin 1: /example
+        # This creates a simple slash command named "example".
         # The callback points to the method that will run when the command is used.
         self._example = app_commands.Command(
             name="example",  # the actual command name in Discord
