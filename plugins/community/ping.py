@@ -3,10 +3,14 @@
 #Plugin Author: Suited
 # © 2025 Suited. All rights reserved.
 # Licensed under Pancake Development License v1.0
-# See LICENSE file for full terms
 
+# --- Imports ---
+
+# Main
 import discord
 from discord import app_commands
+
+# --- Plugin ---
 
 class PingPlugin:
     def __init__(self, bot: discord.Client):
@@ -21,13 +25,12 @@ class PingPlugin:
             description="Pancake should return his latency in miliseconds. I say 'should' bc he sent me my IP address :(",
             callback=self.ping_ms
         )
-
+    # callbacks
     async def ping(self, interaction: discord.Interaction):
         await interaction.response.send_message("I'm going to take over the world muahahahah 😈— I mean... Pong! 😇")
-
     async def ping_ms(self, interaction: discord.Interaction):
         latency = round(self.bot.latency * 1000)
         await interaction.response.send_message(f"I like you so I won't steal your IP, for now... 😈🥞 *(Latenecy of this messasge: **{latency}ms**)*")
-
+    # Get Commands
     def get_commands(self):
         return [self._ping, self._pingms]
