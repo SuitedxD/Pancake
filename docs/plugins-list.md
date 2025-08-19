@@ -100,3 +100,5 @@ Here you'll find all the plugins you can install in Pancake. Click on any of the
 - [Discord Server](https://discord.gg/SgXdeVaxuh)
 - [Invite Pancake to your Discord Server](https://discord.com/oauth2/authorize?client_id=1398868186216271962&permissions=8&integration_type=0&scope=applications.commands+bot)
 - [Plugin Guidelines](/docs/plugins-guidelines.md)
+- [Terms of Service](/TERMS.md)
+- [Privacy Policy](/PRIVACY.md)

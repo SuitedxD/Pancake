@@ -59,3 +59,5 @@ You can always join our Discord server and find more help or guidance on this pr
 - [Discord Server](https://discord.gg/SgXdeVaxuh)
 - [Pancake Plugins List](/docs/plugins-list.md)
 - [Invite Pancake to your Discord Server](https://discord.com/oauth2/authorize?client_id=1398868186216271962&permissions=8&integration_type=0&scope=applications.commands+bot)
+- [Terms of Service](/TERMS.md)
+- [Privacy Policy](/PRIVACY.md)

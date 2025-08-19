@@ -99,3 +99,5 @@ If you haven't found your question or concern here, feel free to reach out via o
 - [Discord Server](https://discord.gg/SgXdeVaxuh)
 - [Pancake Plugins List](/docs/plugins-list.md)
 - [Invite Pancake to your Discord Server](https://discord.com/oauth2/authorize?client_id=1398868186216271962&permissions=8&integration_type=0&scope=applications.commands+bot)
+- [Terms of Service](/TERMS.md)
+- [Privacy Policy](/PRIVACY.md)

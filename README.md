@@ -42,3 +42,7 @@ And it's that easy to install and manage your plugins!
 - [Plugin Creation Guide](docs/plugins-guide.md)
 - [Plugin Guidelines](/docs/plugins-guidelines.md)
 - [Invite Pancake to your Discord Server](https://discord.com/oauth2/authorize?client_id=1398868186216271962&permissions=8&integration_type=0&scope=applications.commands+bot)
+
+By inviting or using Pancake you agree to our [Terms of Service](/TERMS.md) and [Privacy Policy](/PRIVACY.md).
+Pancake is developed and maintained by the Pancake Development Team.
+For legal notices, data requests or vulnerability reports please contact: pancakebot.team@gmail.com.

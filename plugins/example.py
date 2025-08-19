@@ -5,7 +5,7 @@
 # This is a basic example/template of how a Pancake plugin should be structured.
 # Use this as a starting point to create your own plugin.
 
-#This code is free to use, it is not protected under the Pancake Development License.
+# This code is free to use, it is not protected under the Pancake Development License.
 
 # Pancake uses Python. Your entire plugin must be written in Python, 
 # and compatible with the Discord API via discord.py and discord.app_commands.
