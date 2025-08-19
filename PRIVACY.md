@@ -1,5 +1,5 @@
 # Pancake - Privacy Policy
-## Version 1.0 — Effective Date: August 17, 2025
+## Version 1.0 — Effective Date: August 17, 2025 — Last Update: August 19, 2025 
 
 Copyright (c) 2025 Pancake Development Team
 
@@ -31,7 +31,10 @@ Pancake may collect the following categories of data depending on enabled featur
 - Information you optionally provide through support requests (emails, screenshots, descriptions).  
 - Contribution metadata when you submit code, documentation or bug reports.
 
-- **IMPORTANT NOTE:** Pancake does not collect Discord passwords or (by default) client IP addresses. If future features require additional data, such requirements will be communicated and consent will be obtained where required by law.
+- **IMPORTANT NOTES:** 
+Pancake does not collect Discord passwords or (by default) client IP addresses. If future features require additional data, such requirements will be communicated and consent will be obtained where required by law.
+
+Pancake may process certain user data (such as IDs, usernames, avatars, roles or event medatada) even if you do not directly interact with the bot. This occurs automatically as part of server membership and is necessary for features such as greetings, moderation, logging, or role/permission handling. Such processing is based on legitimate interest in providing the service to the server that has enabled Pancake.
 
 ## 3. Purposes of Processing and Legal Bases
 Pancake processes data for the following purposes and legal bases:
