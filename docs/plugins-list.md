@@ -41,6 +41,26 @@ Here you'll find all the plugins you can install in Pancake. Click on any of the
 
 # Fun
 
+## **Fun Commands Pack No. 2** - Suited
+**Commands: 10**
+
+**Install with:** `/install plugin:fun2`
+
+- 10 basic, fun and social commands for your server.
+
+| Command(s) | Description        |
+|-           |-                   |
+| /ship (user), (user) | Pancake calculates the compatibility level between two users. |
+| /fight (user) | Play a silly fight against another user. |
+| /kiss (user) | Kiss another user. |
+| /hug (user) | Hug another user. |
+| /pickup-line (user) | Throw someone a pick-up line. |
+| /who (question) | Pancake will pick someone randomly from the server based on your question. |
+| /cat-fact | Get a random cat fact. |
+| /truth-or-dare | Start a Truth or Dare joinable session (min 2 players). |
+| /music-recommendation | Pancake recommends a song you should listen to. |
+| /set-recommend-playlist (spotify playlist) | Set the server's Spotify public playlist (URL or ID). |
+
 ## **Fun Commands Pack No. 1** - Suited
 **Commands: 7**
 
