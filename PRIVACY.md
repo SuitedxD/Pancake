@@ -1,7 +1,7 @@
 # Pancake - Privacy Policy
 ## Version 1.1 — Effective Date: August 17, 2025 — Last Update: July 16, 2026
 
-Copyright (c) 2026 Suited. All rights reserved.
+Copyright © 2026 Suited. All rights reserved.
 
 ### Preamble
 This Privacy Policy explains what information Pancake collects, how that information is used, shared and stored, and the rights you may have with respect to such information. Pancake operates as a Discord bot and in order to provide its features it necessarily processes certain information described below. By using Pancake, you acknowledge this Privacy Policy. Personal data is processed under the legal bases described below, which may include contractual necessity, legitimate interests, legal obligations, or consent where required.
