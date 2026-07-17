@@ -5,6 +5,19 @@ Here you'll find all the plugins you can install in Pancake. Click on any of the
 
 # Utility
 
+## **Web Embed** - Suited
+**Commands: 2**
+
+**Install with:** `/install plugin:web_embed`
+
+- Create embed messages quickly and easily!
+
+| Command(s) | Description        |
+|-           |-                   |
+| /web-embed-fire (PANCAKE-CODE-EMBED) | Send your embed message using your previously generated Embed Code. For more information about generating an Embed Code, visit the [Pancake Embed Editor Guide](). |
+| /perms-web-embed (Permission level) | Assign the permissions level required to use web-embed-fire. For example: Moderators. |
+
+
 ## **Welcome** - Suited
 **Commands: 9**
 
@@ -20,7 +33,7 @@ Here you'll find all the plugins you can install in Pancake. Click on any of the
 | /set-welcome-avatar-position (1, 2, 3) | Set the avatar position on the welcome image. |
 | /set-welcome-nick-size (8-200) | Set the size of the nickname shown under the avatar. |
 | /set-welcome-nick-position (1, 2, 3) | Set the nickname position on the welcome image. |
-| /set-welcome-text (Example: Hello {user}, welcome to {server_name}!)| Set the welcome text for the embed title. |
+| /set-welcome-text (Example: Hello {user}, welcome to {server_name}!) | Set the welcome text for the embed title. |
 | /set-welcome-embed-color (colors below)| Set the embed color for the welcome message. |
 | /welcome-fire | Test the welcome message by sending it to the configured channel. |
 
