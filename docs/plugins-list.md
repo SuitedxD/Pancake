@@ -14,9 +14,10 @@ Here you'll find all the plugins you can install in Pancake. Click on any of the
 
 | Command(s) | Description        |
 |-           |-                   |
-| /web-embed-fire (PANCAKE-CODE-EMBED) | Send your embed message using your previously generated Embed Code. For more information about generating an Embed Code, visit the [Pancake Embed Editor Guide](). |
+| /web-embed-fire (PANCAKE-CODE-EMBED) | Send your embed message using your previously generated Embed Code in the [Pancake Embed Editor](https://suitedxd.github.io/pancake-embed-editor/) |
 | /perms-web-embed (Permission level) | Assign the permissions level required to use web-embed-fire. For example: Moderators. |
 
+- For more information about generating an Embed Code, visit the [Pancake Embed Editor Guide]()
 
 ## **Welcome** - Suited
 **Commands: 9**
@@ -132,6 +133,7 @@ Here you'll find all the plugins you can install in Pancake. Click on any of the
 - [Plugin Template](/plugins/community/example.py)
 - [Discord Server](https://discord.gg/SgXdeVaxuh)
 - [Invite Pancake to your Discord Server](https://discord.com/oauth2/authorize?client_id=1398868186216271962&permissions=8&integration_type=0&scope=applications.commands+bot)
+- [Pancake Embed Editor](https://suitedxd.github.io/pancake-embed-editor/)
 - [Plugin Guidelines](/docs/plugins-guidelines.md)
 - [Terms of Service](/TERMS.md)
 - [Privacy Policy](/PRIVACY.md)
