@@ -38,6 +38,7 @@ And it's that easy to install and manage your plugins!
 
 # See Also:
 - [Pancake Plugins List](docs/plugins-list.md)
+- [Pancake Embed Editor](https://suitedxd.github.io/pancake-embed-editor/)
 - [Discord Server](https://discord.gg/SgXdeVaxuh)
 - [Plugin Creation Guide](docs/plugins-guide.md)
 - [Plugin Guidelines](/docs/plugins-guidelines.md)
