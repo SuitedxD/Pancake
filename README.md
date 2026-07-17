@@ -18,7 +18,7 @@ The first step is to [add Pancake to your Discord Server](https://discord.com/oa
 | /uninstall (plugin name) | Uninstall the plugin and its commands within. |
 | /installed-list | See a list of the commands you have installed and the available spaces. |
 
-- **IMPORTANT NOTE**: Only administrators can use these commands except for `/installed-list`.
+- **IMPORTANT NOTE**: By default, only administrators can use these commands, but you can configure permissions using `perms-pancake-` followed by the command for which you want to set permissions.
 
 To install a plugin, use `/install` followed by the name of the plugin you want to install, in the [Plugin List](docs/plugins-list.md) you will find all the plugins you can install and their **installation command**.
 
