@@ -55,12 +55,37 @@ Here you'll find all the plugins you can install in Pancake. Click on any of the
 
 # Fun
 
+## **Fun Commands Pack No. 3** - Suited
+**Commands: 15**
+
+**Install with:** `/install plugin:fun3`
+
+- 15 social and... random? Commands for your server.
+
+| Command(s) | Description        |
+|-           |-                   |
+| /fortune-cookie | Open a suspiciously accurate Pancake fortune cookie. |
+| /choose    | Let Pancake choose between two to four options. |
+| /mock      | Mock a sentence LiKe ThIs LoL. |
+| /aura      | Measure someone's completely scientific aura level. |
+| /sus       | Measure someone's suspiciousness. |
+| /wanted    | Generate a ridiculous wanted poster for a user. |
+| /backstory | Generate an absurd cinematic backstory for a user. |
+| /main-character | Determine what kind of main character someone is. |
+| /quest     | Receive a ridiculous quest worthy of a hero. |
+| /sidequest | Receive a completely unnecessary side quest. |
+| /oracle    | Ask the Mysterious Pancake Oracle an important or useless question. |
+| /debate    | Start a ridiculous debate between you and another user. |
+| /lie-detector | Run a completely unreliable lie detector test. |
+| /court | Put a user on trial before the Pancake Court. |
+| /conspiracy | Generate a ridiculous conspiracy involving a user. |
+
 ## **Fun Commands Pack No. 2** - Suited
 **Commands: 10**
 
 **Install with:** `/install plugin:fun2`
 
-- 10 basic, fun and social commands for your server.
+- 9 basic, fun and social commands for your server.
 
 | Command(s) | Description        |
 |-           |-                   |
@@ -71,7 +96,6 @@ Here you'll find all the plugins you can install in Pancake. Click on any of the
 | /pickup-line (user) | Throw someone a pick-up line. |
 | /who (question) | Pancake will pick someone randomly from the server based on your question. |
 | /cat-fact | Get a random cat fact. |
-| /truth-or-dare | Start a Truth or Dare joinable session (min 2 players). |
 | /music-recommendation | Pancake recommends a song you should listen to. |
 | /set-recommend-playlist (spotify playlist) | Set the server's Spotify public playlist (URL or ID). |
 
