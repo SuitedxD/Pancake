@@ -97,7 +97,7 @@ Here you'll find all the plugins you can install in Pancake. Click on any of the
 | /who (question) | Pancake will pick someone randomly from the server based on your question. |
 | /cat-fact | Get a random cat fact. |
 | /music-recommendation | Pancake recommends a song you should listen to. |
-| /set-recommend-playlist (spotify playlist) | Set the server's Spotify public playlist (URL or ID). |
+| /set-recommend-playlist (YouTube playlist) | Set the server's YouTube public playlist (URL). |
 
 ## **Fun Commands Pack No. 1** - Suited
 **Commands: 7**
