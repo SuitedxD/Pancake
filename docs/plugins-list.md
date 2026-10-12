@@ -17,7 +17,7 @@ Here you'll find all the plugins you can install in Pancake. Click on any of the
 | /web-embed-fire (PANCAKE-CODE-EMBED) | Send your embed message using your previously generated Embed Code in the [Pancake Embed Editor](https://suitedxd.github.io/pancake-embed-editor/) |
 | /perms-web-embed (Permission level) | Assign the permissions level required to use web-embed-fire. For example: Moderators. |
 
-- For more information about generating an Embed Code, visit the [Pancake Embed Editor Guide]()
+- For more information about generating an Embed Code, visit the [Pancake Embed Editor Guide](https://github.com/SuitedxD/pancake-embed-editor/tree/main#getting-started)
 
 ## **Welcome** - Suited
 **Commands: 9**
