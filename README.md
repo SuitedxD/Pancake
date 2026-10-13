@@ -20,7 +20,12 @@ The first step is to [add Pancake to your Discord Server](https://discord.com/oa
 
 - **IMPORTANT NOTE**: By default, only administrators can use these commands, but you can configure permissions using `perms-pancake-` followed by the command for which you want to set permissions.
 
-To install a plugin, use `/install` followed by the name of the plugin you want to install, in the [Plugin List](docs/plugins-list.md) you will find all the plugins you can install and their **installation command**.
+To install a plugin, use `/install` followed by the installation command of the plugin you want to install. 
+
+For example:
+`/install plugin:ping`
+
+In the [Plugin Portal](https://suitedxd.github.io/pancake-development-team/pancake/plugins/) you will find all the plugins you can install and their **installation command**.
 
 ## Spaces and Uninstallation
 Discord **only accepts up to 100 slash commands PER SERVER**. If you install large plugins and are about to reach the limit, we recommend uninstalling unnecessary or unused plugins. To do this, use `/uninstall` followed by the name of the plugin you want to remove to free up space.
@@ -37,7 +42,7 @@ And it's that easy to install and manage your plugins!
 ***It's time to bring your ideas to life.***
 
 # See Also:
-- [Pancake Plugins List](docs/plugins-list.md)
+- [Pancake Plugin Portal](https://suitedxd.github.io/pancake-development-team/pancake/plugins/)
 - [Pancake Embed Editor](https://suitedxd.github.io/pancake-embed-editor/)
 - [Discord Server](https://discord.gg/SgXdeVaxuh)
 - [Plugin Creation Guide](docs/plugins-guide.md)
