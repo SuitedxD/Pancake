@@ -1,5 +1,5 @@
 # ===========================
-#      Plugin Example
+#      Plugin Example/Template
 # ===========================
 
 # This is a basic example/template of how a Pancake plugin should be structured.
@@ -10,15 +10,51 @@
 # Pancake uses Python. Your entire plugin must be written in Python, 
 # and compatible with the Discord API via discord.py and discord.app_commands.
 
-# (Insert your plugin name here)
-# (Insert your description here)
-# (Insert your plugin categories here)
-
 # A plugin is a group of slash commands wrapped into a single class.
 # Each command is created using app_commands.Command, which requires a name, description, and a callback.
 # Your class must implement a method called get_commands() that returns all commands as a list.
 # Pancake uses this method to install and remove plugins dynamically.
 # You MUST follow the Plugin Guidelines to get your plugin accepted.
+
+# --- Your Plugin Starts Here ---
+
+# IMPORTANT NOTE: PLEASE, IT IS IMPORTANT THAT YOU FILL OUT THE FOLLOWING FORM, 
+# AS IT WILL BE THE ONE USED FOR PUBLICATION ON THE PLUGIN PORTAL.
+# FAILURE TO DO SO RESULTS IN IMMEDIATE REJECTION.
+
+# PLUGIN TITLE: (for example: Web Embeds)
+# YOUR DISCORD ID: (for example: 775194414535409705)
+# PLUGIN DESCRIPTION: (for example: Create embed messages quickly and easily! you can use markdown here btw)
+# PLUGIN INSTALLATION COMMAND: (for example: /install plugin:web_embed)
+# COVER IMAGE URL (OPTIONAL, RECOMMENDED SIZE 1200x630): (for example: https://i.imgur.com/qDtjEFw.png)
+# CATEGORIES: (you can see all categories here: https://github.com/SuitedxD/Pancake/blob/main/docs/plugins-guidelines.md#plugin-categories)
+
+# ENTER YOUR PLUGIN'S COMMANDS BELOW, 
+# ALONG WITH A DESCRIPTION OF WHAT EACH ONE DOES:
+
+# command:
+# /web-embed-fire 
+# description:
+# Send your embed message using your previously generated Embed Code in the Pancake Embed Editor.
+
+# command:
+# /perms-web-embed (Permission level)
+# description:
+# Assign the permissions level required to use web-embed-fire. For example: Moderators.
+
+# ADITIONAL IMAGE URLs (OPTIONAL GALLERY IMAGES. ONE URL PER LINE, UP TO 12 IMAGES):
+
+# YOUTUBE VIDEO URLs (OPTIONAL VIDEOS. ADD ONE YOUTUBE PER LINE, UP TO 5 VIDEOS):
+
+# ADDITIONAL NOTES:
+# (you can aslo use markdown here)
+
+# IMPORTANT NOTE: YOU CAN USE MARKDOWN FORMATTING
+# IN THE DESCRIPTION AND ADDITIONAL NOTES.
+# FOR MORE INFO ABOUT MARKDOWN FORMAT CHECK THIS
+# https://www.markdownguide.org/basic-syntax/
+
+# --- Your Code Starts Here ---
 
 import discord
 from discord import app_commands
