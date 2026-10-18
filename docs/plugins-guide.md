@@ -49,7 +49,7 @@ Any plugin that fails to comply will be postponed, rejected, or permanently bann
 ## Writing a Plugin
 Pancake uses **Python** as its programming language. That means all your code must be written in Python, using the `discord.py` library and the same structure we use internally.
 
-**[Click here](/plugins/community/example.py) to see a template to get you started.**
+**[Click here](/plugins/example.py) to see a template to get you started.**
 
 ## Finally
 You can always join our Discord server and find more help or guidance on this process in our #plugin-forum. Finally, have fun!
