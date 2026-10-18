@@ -29,7 +29,8 @@ Here's how the process works:
 4. **Paste a link to your plugin's code** using [GitHub Gist](https://gist.github.com). This is the only format we currently accept.
 5. **Include a clear explanation** of what your plugin does, what commands it includes, and how users are expected to use it.
 6. **Specify the category** your plugin belongs to ("Fun", "Moderation, "Tools", etc. You can find the list [cliking here](/docs/plugins-guidelines.md#plugin-categories)).
-7. Our team will **review** your submission. If everything is in order, we'll integrate it into the plugin system. If not, we’ll contact you for fixes or clarifications.
+7. You can include a description in [Markdown](https://www.markdownguide.org/basic-syntax/) format. The [Plugin Portal](https://suitedxd.github.io/pancake-development-team/pancake/plugins/) supports this format. You can also include images and videos (URLs only).
+8. Our team will **review** your submission. If everything is in order, we'll integrate it into the plugin system and will be published in the [Pancake Plugin Portal](https://suitedxd.github.io/pancake-development-team/pancake/plugins/). This means that your plugin can be installed on any server. In case of rejection, we’ll contact you for fixes or clarifications.
 
 ## Why Guidelines Matter
 It is extremely important that your plugin follows the official guidelines. This is not optional.
